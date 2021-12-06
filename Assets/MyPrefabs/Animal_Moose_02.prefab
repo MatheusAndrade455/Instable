@@ -342,10 +342,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3907333363481162553}
   - component: {fileID: 3907333363488538723}
-  - component: {fileID: 670027028233422038}
   - component: {fileID: 9212981543514978714}
   - component: {fileID: -7447491646540032295}
   - component: {fileID: 3361006088304608265}
+  - component: {fileID: 670027028233422038}
   m_Layer: 0
   m_Name: Animal_Moose_02
   m_TagString: Untagged
@@ -396,22 +396,6 @@ Animator:
   m_HasTransformHierarchy: 0
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &670027028233422038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3907333363481405677}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4b85e34cd53dac4cae4f1a8e4585ad6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vida: 40
-  dano: 5
-  timeBetweenAttacks: 2
-  distancia: 2.5
 --- !u!65 &9212981543514978714
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -463,6 +447,22 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &670027028233422038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3907333363481405677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b85e34cd53dac4cae4f1a8e4585ad6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 40
+  dano: 5
+  timeBetweenAttacks: 2
+  distancia: 2.5
 --- !u!1 &3907333363481415091
 GameObject:
   m_ObjectHideFlags: 0

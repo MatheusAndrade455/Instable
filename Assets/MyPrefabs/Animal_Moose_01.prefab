@@ -510,8 +510,8 @@ GameObject:
   - component: {fileID: 6290511509804153164}
   - component: {fileID: 5695884756495360620}
   - component: {fileID: 4209422133377942234}
-  - component: {fileID: 6484682423841357294}
   - component: {fileID: 1877813795}
+  - component: {fileID: 6484682423841357294}
   m_Layer: 0
   m_Name: Animal_Moose_01
   m_TagString: Untagged
@@ -591,22 +591,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6484682423841357294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6290511509813604946}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4b85e34cd53dac4cae4f1a8e4585ad6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vida: 40
-  dano: 5
-  timeBetweenAttacks: 2
-  distancia: 2.5
 --- !u!195 &1877813795
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -629,6 +613,22 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &6484682423841357294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6290511509813604946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b85e34cd53dac4cae4f1a8e4585ad6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 40
+  dano: 5
+  timeBetweenAttacks: 2
+  distancia: 2.5
 --- !u!1 &6290511509813609134
 GameObject:
   m_ObjectHideFlags: 0
