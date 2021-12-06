@@ -12,6 +12,15 @@ public class Construcao : MonoBehaviour
     public Button botao2;
     public Button botao3;
     public Button botao4;
+    
+    public Button gerador;
+    public Button dormitorio;
+    public Button banheiro;
+    public Button agua;
+    public Button cozinha;
+    public Button terra;
+    public Button abre01;
+    public Button abre02;
     public AudioSource construindo;
 
     private Dictionary<string, int> AtribuirRecurso(string tipo)
@@ -129,6 +138,7 @@ public class Construcao : MonoBehaviour
             if (!player.inventario.TemSuficiente(rec, recursos[rec]))
             {
                 Debug.Log("falta material po");
+                
                 return;
             };
         }
@@ -139,19 +149,20 @@ public class Construcao : MonoBehaviour
         }
 
         Efetivar(tipo);
+        Nao_some.Construir(tipo);
     }
 
     private void Efetivar(string tipo)
     {
         switch (tipo)
         {
-            case "Gerador":
+            case "Gerador":                
                 construcao.SetActive(true);
-                construindo.Play();
+                construindo.Play();                
                 return;
             case "Modulo1":                
                 botao1.interactable = true;
-                construindo.Play();
+                construindo.Play();                
                 return;
             case "Modulo2":                
                 botao2.interactable = true;
@@ -176,6 +187,7 @@ public class Construcao : MonoBehaviour
             case "Plantacao":
                 construcao.SetActive(true);
                 construindo.Play();
+
                 return;
             case "Gera_agua":
                 construcao.SetActive(true);
@@ -187,7 +199,7 @@ public class Construcao : MonoBehaviour
                 return;
             case "Banheiro":
                 construcao.SetActive(true);
-                construindo.Play();
+                construindo.Play();                
                 return;
             case "Cozinha":
                 construcao.SetActive(true);

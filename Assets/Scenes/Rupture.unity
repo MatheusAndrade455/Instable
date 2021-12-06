@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: ca3e99a5b9c445e44a80802fefb810b9, type: 2}
 --- !u!1001 &1246523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -137,6 +137,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -230,6 +234,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: esmeralda
       objectReference: {fileID: 0}
+    - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1740965529802108140, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -321,6 +329,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -414,6 +426,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 226
@@ -505,6 +521,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -598,6 +618,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 252
@@ -690,6 +714,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 190
@@ -781,6 +809,10 @@ PrefabInstance:
     - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_TagString
       value: esmeralda
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
@@ -884,7 +916,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 97193718}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -324, y: 49, z: 0}
+  m_LocalPosition: {x: -316, y: 49, z: -0}
   m_LocalScale: {x: 648, y: 52, z: 1}
   m_Children: []
   m_Father: {fileID: 267565724}
@@ -898,7 +930,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 97193718}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -917,6 +949,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -1010,6 +1046,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: esmeralda
       objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -1101,6 +1141,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -1194,6 +1238,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 236
@@ -1285,6 +1333,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -1378,6 +1430,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 243
@@ -1469,6 +1525,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -1562,6 +1622,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 158
@@ -1653,6 +1717,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -1746,6 +1814,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 229
@@ -1837,6 +1909,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -1930,6 +2006,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 235
@@ -2021,6 +2101,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -2114,6 +2198,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 251
@@ -2205,6 +2293,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -2298,6 +2390,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 250
@@ -2389,6 +2485,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -2482,6 +2582,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 263
@@ -2573,6 +2677,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -2666,6 +2774,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 151
@@ -2758,6 +2870,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 92
@@ -2844,6 +2960,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 267565724}
+  - component: {fileID: 267565725}
   m_Layer: 0
   m_Name: Limites
   m_TagString: Untagged
@@ -2859,16 +2976,29 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267565723}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -41.89032, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -42.89032, z: 0}
+  m_LocalScale: {x: 0.015384615, y: 1, z: 0.015384615}
   m_Children:
   - {fileID: 1121289368}
   - {fileID: 97193719}
   - {fileID: 1370243029}
   - {fileID: 928448513}
-  m_Father: {fileID: 794446341}
+  m_Father: {fileID: 699331238}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &267565725
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267565723}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &270803054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2883,6 +3013,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -2976,6 +3110,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 162
@@ -3067,6 +3205,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -3160,6 +3302,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 211
@@ -3251,6 +3397,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -3344,6 +3494,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 55
@@ -3435,6 +3589,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -3621,6 +3779,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 149
@@ -3712,6 +3874,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -3805,6 +3971,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 232
@@ -3897,6 +4067,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 159
@@ -3988,6 +4162,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -4177,6 +4355,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 178
@@ -4330,6 +4512,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 203
@@ -4421,6 +4607,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -4514,6 +4704,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -4605,6 +4799,10 @@ PrefabInstance:
     - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_TagString
       value: esmeralda
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
@@ -4759,6 +4957,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 200
@@ -4850,6 +5052,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -4943,6 +5149,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 143
@@ -5034,6 +5244,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -5127,6 +5341,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 49
@@ -5218,6 +5436,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -5311,6 +5533,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 194
@@ -5402,6 +5628,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -5495,6 +5725,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 40
@@ -5586,6 +5820,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -5679,6 +5917,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 142
@@ -5770,6 +6012,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -5890,7 +6136,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 3fbd55edbdb30694c91ad58e98c39b5c, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -5990,6 +6236,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -6081,6 +6331,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -6174,6 +6428,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 104
@@ -6265,6 +6523,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -6358,6 +6620,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 60
@@ -6449,6 +6715,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -6542,6 +6812,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -6633,6 +6907,10 @@ PrefabInstance:
     - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_TagString
       value: esmeralda
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1740965529802108140, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_RootOrder
@@ -6726,6 +7004,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 234
@@ -6817,6 +7099,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -6910,6 +7196,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 166
@@ -7001,6 +7291,10 @@ PrefabInstance:
     - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_TagString
       value: esmeralda
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
@@ -7094,6 +7388,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 80
@@ -7185,6 +7483,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -7278,6 +7580,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 213
@@ -7369,6 +7675,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -7462,6 +7772,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: esmeralda
       objectReference: {fileID: 0}
+    - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1740965529802108140, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -7553,6 +7867,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -7646,6 +7964,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 78
@@ -7737,6 +8059,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -7830,6 +8156,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 115
@@ -7921,6 +8251,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -8014,6 +8348,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 42
@@ -8105,6 +8443,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -8198,6 +8540,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 210
@@ -8289,6 +8635,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -8382,6 +8732,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 218
@@ -8473,6 +8827,10 @@ PrefabInstance:
     - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_TagString
       value: esmeralda
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
@@ -8566,6 +8924,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 196
@@ -8657,6 +9019,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -8750,6 +9116,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 164
@@ -8841,6 +9211,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -8934,6 +9308,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 215
@@ -9025,6 +9403,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -9118,6 +9500,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 183
@@ -9210,6 +9596,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 90
@@ -9301,6 +9691,10 @@ PrefabInstance:
     - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_TagString
       value: esmeralda
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
@@ -9397,7 +9791,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &699331238
 Transform:
@@ -9412,6 +9806,7 @@ Transform:
   m_Children:
   - {fileID: 941466042}
   - {fileID: 789612205}
+  - {fileID: 267565724}
   m_Father: {fileID: 794446341}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10007,6 +10402,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -10098,6 +10497,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -10191,6 +10594,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -10283,6 +10690,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: esmeralda
       objectReference: {fileID: 0}
+    - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1740965529802108140, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -10374,6 +10785,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -10506,6 +10921,14 @@ PrefabInstance:
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: walkSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: sprintSpeed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: enableCrouch
@@ -10789,6 +11212,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -10880,6 +11307,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -10973,6 +11404,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 47
@@ -11064,6 +11499,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -11157,6 +11596,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: esmeralda
       objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -11248,6 +11691,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -11341,6 +11788,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -11432,6 +11883,10 @@ PrefabInstance:
     - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_TagString
       value: esmeralda
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
@@ -11525,6 +11980,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -11616,7 +12075,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &789612205
 Transform:
@@ -11686,6 +12145,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -11839,7 +12302,6 @@ Transform:
   m_Children:
   - {fileID: 2094699151}
   - {fileID: 699331238}
-  - {fileID: 267565724}
   - {fileID: 308714774}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -11858,6 +12320,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -11951,6 +12417,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 136
@@ -12042,6 +12512,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -12135,6 +12609,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 154
@@ -12226,6 +12704,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -12319,6 +12801,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 128
@@ -12410,6 +12896,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -12503,6 +12993,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 100
@@ -12594,6 +13088,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -12687,6 +13185,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 150
@@ -12778,6 +13280,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -12871,6 +13377,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -12962,6 +13472,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -13055,6 +13569,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 168
@@ -13146,6 +13664,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -13239,6 +13761,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 112
@@ -13330,6 +13856,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -13423,6 +13953,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 133
@@ -13514,6 +14048,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -13607,6 +14145,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 175
@@ -13698,6 +14240,10 @@ PrefabInstance:
     - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_TagString
       value: esmeralda
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
@@ -13791,6 +14337,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 247
@@ -13882,6 +14432,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -13975,6 +14529,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 141
@@ -14067,6 +14625,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -14158,6 +14720,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -14261,7 +14827,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 928448512}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 49, z: 324}
+  m_LocalPosition: {x: 0, y: 49, z: 322.4}
   m_LocalScale: {x: 648, y: 52, z: 1}
   m_Children: []
   m_Father: {fileID: 267565724}
@@ -14275,7 +14841,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 928448512}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -14294,6 +14860,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -14387,6 +14957,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 74
@@ -14479,6 +15053,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 103
@@ -14570,7 +15148,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &941466042
 Transform:
@@ -14871,6 +15449,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 93
@@ -14962,6 +15544,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -15055,6 +15641,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 198
@@ -15146,6 +15736,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -15239,6 +15833,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 261
@@ -15330,6 +15928,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -15423,6 +16025,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 268
@@ -15514,6 +16120,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -15607,6 +16217,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 82
@@ -15698,6 +16312,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -15791,6 +16409,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 160
@@ -15882,6 +16504,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -15975,6 +16601,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 152
@@ -16066,6 +16696,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -16191,6 +16825,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: esmeralda
       objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -16282,6 +16920,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -16375,6 +17017,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 242
@@ -16466,6 +17112,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -16559,6 +17209,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: esmeralda
       objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -16650,6 +17304,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -16743,6 +17401,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 132
@@ -16834,6 +17496,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -16927,6 +17593,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -17018,6 +17688,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -17111,6 +17785,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -17202,6 +17880,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -17295,6 +17977,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: esmeralda
       objectReference: {fileID: 0}
+    - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1740965529802108140, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -17386,6 +18072,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -17489,7 +18179,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1121289367}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 324, y: 49, z: 0}
+  m_LocalPosition: {x: 320.1, y: 49, z: -0}
   m_LocalScale: {x: 648, y: 52, z: 1}
   m_Children: []
   m_Father: {fileID: 267565724}
@@ -17503,7 +18193,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1121289367}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -17522,6 +18212,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -17615,6 +18309,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 126
@@ -17706,6 +18404,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -17799,6 +18501,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 202
@@ -17890,6 +18596,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -17983,6 +18693,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -18074,6 +18788,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -18167,6 +18885,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 65
@@ -18258,6 +18980,10 @@ PrefabInstance:
     - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_TagString
       value: esmeralda
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1740965529802108140, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_RootOrder
@@ -18351,6 +19077,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 180
@@ -18442,6 +19172,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -18535,6 +19269,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 117
@@ -18626,6 +19364,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -18719,6 +19461,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 214
@@ -18810,6 +19556,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -18903,6 +19653,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: esmeralda
       objectReference: {fileID: 0}
+    - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1740965529802108140, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -18994,6 +19748,10 @@ PrefabInstance:
     - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_TagString
       value: esmeralda
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1740965529802108140, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_RootOrder
@@ -19087,6 +19845,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: esmeralda
       objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -19178,6 +19940,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -19271,6 +20037,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: esmeralda
       objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -19362,6 +20132,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -19455,6 +20229,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 120
@@ -19546,6 +20324,10 @@ PrefabInstance:
     - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_TagString
       value: esmeralda
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1740965529802108140, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_RootOrder
@@ -19639,6 +20421,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 145
@@ -19730,6 +20516,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -19823,6 +20613,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: esmeralda
       objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -19914,6 +20708,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -20007,6 +20805,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: esmeralda
       objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -20098,6 +20900,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -20191,6 +20997,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 63
@@ -20282,6 +21092,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -20375,6 +21189,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 173
@@ -20466,6 +21284,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -20559,6 +21381,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 91
@@ -20650,6 +21476,10 @@ PrefabInstance:
     - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_TagString
       value: esmeralda
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1740965529802108140, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_RootOrder
@@ -20743,6 +21573,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -20834,6 +21668,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -20927,6 +21765,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -21018,6 +21860,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -21111,6 +21957,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 86
@@ -21202,6 +22052,10 @@ PrefabInstance:
     - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_TagString
       value: esmeralda
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1740965529802108140, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_RootOrder
@@ -21295,6 +22149,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: esmeralda
       objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -21387,6 +22245,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 121
@@ -21478,6 +22340,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -21581,7 +22447,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1370243028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 49.7, z: -324}
+  m_LocalPosition: {x: 0, y: 49.7, z: -319.9}
   m_LocalScale: {x: 648, y: 52, z: 1}
   m_Children: []
   m_Father: {fileID: 267565724}
@@ -21595,7 +22461,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1370243028}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -21614,6 +22480,10 @@ PrefabInstance:
     - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_TagString
       value: esmeralda
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
@@ -21707,6 +22577,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 69
@@ -21798,6 +22672,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -21891,6 +22769,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 137
@@ -21982,6 +22864,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -22075,6 +22961,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 266
@@ -22166,6 +23056,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -22259,6 +23153,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 89
@@ -22350,6 +23248,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -22443,6 +23345,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 67
@@ -22534,6 +23440,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -22627,6 +23537,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 138
@@ -22718,6 +23632,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -22811,6 +23729,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 188
@@ -22902,6 +23824,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -22995,6 +23921,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 244
@@ -23086,6 +24016,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -23179,6 +24113,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -23270,6 +24208,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -23363,6 +24305,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 51
@@ -23454,6 +24400,10 @@ PrefabInstance:
     - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_TagString
       value: esmeralda
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1740965529802108140, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_RootOrder
@@ -23547,6 +24497,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 212
@@ -23638,6 +24592,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -23731,6 +24689,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 83
@@ -23822,6 +24784,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -23915,6 +24881,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: esmeralda
       objectReference: {fileID: 0}
+    - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1740965529802108140, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -24006,6 +24976,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -24099,6 +25073,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 46
@@ -24190,6 +25168,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -24283,6 +25265,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -24374,6 +25360,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -24467,6 +25457,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 88
@@ -24558,6 +25552,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -24651,6 +25649,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 186
@@ -24742,6 +25744,10 @@ PrefabInstance:
     - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_TagString
       value: esmeralda
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
@@ -24835,6 +25841,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: esmeralda
       objectReference: {fileID: 0}
+    - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1740965529802108140, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -24926,6 +25936,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -25019,6 +26033,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 237
@@ -25110,6 +26128,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -25203,6 +26225,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -25294,6 +26320,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -25387,6 +26417,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 191
@@ -25478,6 +26512,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -25571,6 +26609,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: esmeralda
       objectReference: {fileID: 0}
+    - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1740965529802108140, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -25662,6 +26704,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -25755,6 +26801,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 192
@@ -25846,6 +26896,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -25939,6 +26993,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: esmeralda
       objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -26030,6 +27088,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -26123,6 +27185,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -26214,6 +27280,10 @@ PrefabInstance:
     - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_TagString
       value: esmeralda
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
@@ -26307,6 +27377,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 225
@@ -26398,6 +27472,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -26491,6 +27569,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 224
@@ -26582,6 +27664,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -26675,6 +27761,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 68
@@ -26767,6 +27857,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 130
@@ -26858,6 +27952,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -27115,6 +28213,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 161
@@ -27206,6 +28308,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -27299,6 +28405,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 249
@@ -27390,6 +28500,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -27483,6 +28597,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 185
@@ -27574,6 +28692,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -27667,6 +28789,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -27758,6 +28884,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -27851,6 +28981,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 52
@@ -27942,6 +29076,10 @@ PrefabInstance:
     - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_TagString
       value: esmeralda
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1740965529802108140, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_RootOrder
@@ -28035,6 +29173,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 70
@@ -28126,6 +29268,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -28246,7 +29392,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 604427a49a9381947b8d6a5093e575b5, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -28346,6 +29492,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 76
@@ -28437,6 +29587,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -28530,6 +29684,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: esmeralda
       objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -28621,6 +29779,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -28714,6 +29876,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 107
@@ -28805,6 +29971,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -28898,6 +30068,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 81
@@ -28989,6 +30163,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -29082,6 +30260,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 228
@@ -29173,6 +30355,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -29266,6 +30452,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 170
@@ -29358,6 +30548,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 208
@@ -29449,6 +30643,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -29586,6 +30784,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: esmeralda
       objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -29677,6 +30879,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -29770,6 +30976,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -29861,6 +31071,10 @@ PrefabInstance:
     - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_TagString
       value: esmeralda
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843234478653007520, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6843234478653373056, guid: c7cd4554903668b49972df9f2ea05d46, type: 3}
       propertyPath: m_RootOrder
@@ -29954,6 +31168,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 61
@@ -30045,6 +31263,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -30138,6 +31360,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 230
@@ -30230,6 +31456,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 172
@@ -30321,6 +31551,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -31025,6 +32259,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 98
@@ -31161,6 +32399,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 256
@@ -31252,6 +32494,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
@@ -31345,6 +32591,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 219
@@ -31436,6 +32686,10 @@ PrefabInstance:
     - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_TagString
       value: esmeralda
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740965529801879756, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1740965529802108140, guid: 1c6d22081b3c1324c8849af37e9cb10f, type: 3}
       propertyPath: m_RootOrder
@@ -31529,6 +32783,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: palmeira
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder
       value: 113
@@ -31620,6 +32878,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_TagString
       value: palmeira
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 200c7bff23e82db4c8efd0f74195fcf8, type: 3}
       propertyPath: m_RootOrder

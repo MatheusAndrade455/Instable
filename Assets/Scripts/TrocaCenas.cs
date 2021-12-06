@@ -6,21 +6,20 @@ using UnityEngine.SceneManagement;
 public class TrocaCenas : MonoBehaviour
 {
     bool mouseOnObject;    
-    private GameObject Jogador;
+    private GameObject Jogador;    
     public int cena;
     [Range(0.1f, 10.0f)] private float distancia = 7.5f;
 
     void Start()
     {
-        Jogador = GameObject.FindWithTag("Player");
+        Jogador = GameObject.FindWithTag("Player");        
     }
 
     void Update()
     {
         if (mouseOnObject == true && Vector3.Distance(transform.position, Jogador.transform.position) < distancia && Input.GetKeyDown(KeyCode.F))
         {
-            if(cena == 3) SceneManager.LoadScene(cena);
-            else SceneManager.LoadScene(cena, LoadSceneMode.Additive);
+           SceneManager.LoadScene(cena);           
         }
     }
     private void OnMouseEnter()
