@@ -19,7 +19,8 @@ public class TrocaCenas : MonoBehaviour
     {
         if (mouseOnObject == true && Vector3.Distance(transform.position, Jogador.transform.position) < distancia && Input.GetKeyDown(KeyCode.F))
         {
-            SceneManager.LoadScene(cena);
+            if(cena == 3) SceneManager.LoadScene(cena);
+            else SceneManager.LoadScene(cena, LoadSceneMode.Additive);
         }
     }
     private void OnMouseEnter()

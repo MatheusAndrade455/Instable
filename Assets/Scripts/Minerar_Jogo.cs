@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,8 +10,30 @@ public class Minerar_Jogo : MonoBehaviour
     bool mouseOnOre;
     private GameObject Jogador;
     public AudioSource minerando;
+    public AudioSource quebrando;
 
     public Dictionary<string, float> tamanhos;
+
+    private string[] keysQuebrando = new string[]{
+        "arvore",
+        "palmeira",
+        "cactus",
+        "dead_wood",
+        "frozen_wood"
+    };
+
+    private string[] keysMinerando = {
+        "pedra",
+        "azulita",
+        "ouro",
+        "rosita",
+        "fireore",
+        "ferro",
+        "esmeralda",
+        "grafite",
+        "perolado",
+        "ice"
+    };
 
     void Start()
     {
@@ -35,6 +58,12 @@ public class Minerar_Jogo : MonoBehaviour
         tamanhos.Add("ice", 1.5f);
     }
 
+    void TocarSom(string nome)
+    {
+        if(keysQuebrando.Contains(nome)) quebrando.Play();
+        else if(keysMinerando.Contains(nome)) minerando.Play();
+    }
+
     void Update()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -48,6 +77,8 @@ public class Minerar_Jogo : MonoBehaviour
 
             if (tamanhos.ContainsKey(nome))
             {
+                TocarSom(nome);
+
                 player.inventario.Adicionar(nome, 1);
 
                 float tam = tamanhos[nome];
