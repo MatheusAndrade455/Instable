@@ -13,6 +13,7 @@ public class Mensagem : MonoBehaviour
     {
         //reconhecer o jogador
         Jogador = GameObject.FindWithTag("Player");
+        texto.enabled = false;
     }
 
     void Update()
@@ -20,13 +21,13 @@ public class Mensagem : MonoBehaviour
 
     }
 
-    //se o jogador estiver encostando no objeto, o texto irá aparecer
+    //se o jogador estiver encostando no objeto, o texto irï¿½ aparecer
     public void OnTriggerEnter(Collider other)
     {
         texto.enabled = true;
     }
 
-    //se o jogador parar de encostar no objeto, o texto irá desaparecer
+    //se o jogador parar de encostar no objeto, o texto irï¿½ desaparecer
     public void OnTriggerExit(Collider other)
     {
         texto.enabled = false;

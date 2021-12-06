@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Pc_Tuto : MonoBehaviour
 {
-    bool mouseOnObject;    
+    bool mouseOnObject;
     public AudioSource construindo;
     public AudioSource nave_pousando;
     public Text missao;
@@ -14,12 +14,18 @@ public class Pc_Tuto : MonoBehaviour
     private GameObject Jogador;
     public GameObject gera;
     public GameObject nave;
+    public GameObject mensagem;
     [Range(0.1f, 10.0f)] private float distancia = 3.5f;
 
     void Start()
     {
         missao.enabled = false;
         Jogador = GameObject.FindWithTag("Player");
+        mensagem.SetActive(true);
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+        Jogador.GetComponent<FirstPersonController>().enabled = false;
+        dica.enabled = false;
     }
 
     void Update()

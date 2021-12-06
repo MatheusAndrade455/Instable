@@ -30,10 +30,17 @@ public class Recursos : MonoBehaviour
         campos.Add("frozen_wood", "Madeira Congelada");
         campos.Add("ice", "Gelo");
 
-        foreach(var item in campos.Keys){
+        foreach (var item in campos.Keys)
+        {
             Text campo = GameObject.Find(item).GetComponent<Text>();
 
             campo.text = $"{campos[item]}: {player.inventario.GetQuantidade(item)}";
         }
+    }
+
+    public void Some()
+    {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;        
     }
 }
