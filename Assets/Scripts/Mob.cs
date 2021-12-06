@@ -53,7 +53,6 @@ public class Mob : MonoBehaviour
         if (!alreadyAttacked)
         {
             Arma.vida -= dano;
-            Debug.Log(Arma.vida);
             alreadyAttacked = true;
             Invoke("ResetAttack", timeBetweenAttacks);
         }

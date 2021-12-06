@@ -24,8 +24,6 @@ public class Arma : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
-            Debug.Log(hit.transform.name);
-
             Mob mob = hit.transform.GetComponent<Mob>();
             if (mob != null)
             {
