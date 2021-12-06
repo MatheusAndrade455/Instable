@@ -16,6 +16,8 @@ public class Mob : MonoBehaviour
     bool alreadyAttacked;
     [Range(0.1f, 10.0f)] public float distancia = 3.5f;
 
+    private Animator anim;
+
     public void LevaDano(float quant)
     {
         vida -= quant;
@@ -34,11 +36,13 @@ public class Mob : MonoBehaviour
     private void Start()
     {
         Player = GameObject.FindWithTag("Player");
+        anim = GetComponent<Animator>();
     }
 
     private void Update()
     {
         GetComponent<NavMeshAgent>().destination = Player.transform.position;
+        anim.SetBool("andando", true);
 
         if (Vector3.Distance(transform.position, Player.transform.position) < distancia)
             Atacar();
