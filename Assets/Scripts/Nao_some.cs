@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-/*
+
 public class Nao_some : MonoBehaviour
 {
     public GameObject gerador;
@@ -78,4 +78,3 @@ public class Nao_some : MonoBehaviour
         }
     }
 }
-    */

@@ -625,8 +625,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4b85e34cd53dac4cae4f1a8e4585ad6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 20
-  dano: 3
+  vida: 40
+  dano: 5
   timeBetweenAttacks: 2
   distancia: 2.5
 --- !u!1 &6290511509813609134

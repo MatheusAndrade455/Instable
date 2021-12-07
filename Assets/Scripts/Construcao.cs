@@ -149,7 +149,7 @@ public class Construcao : MonoBehaviour
         }
 
         Efetivar(tipo);
-        //Nao_some.Construir(tipo);
+        Nao_some.Construir(tipo);
     }
 
     private void Efetivar(string tipo)

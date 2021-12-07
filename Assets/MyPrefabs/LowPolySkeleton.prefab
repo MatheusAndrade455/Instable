@@ -1423,7 +1423,6 @@ GameObject:
   - component: {fileID: 1425741326}
   - component: {fileID: 1425741325}
   - component: {fileID: 1425741324}
-  - component: {fileID: 2861076239946393597}
   m_Layer: 0
   m_Name: LowPolySkeleton
   m_TagString: Untagged
@@ -1518,22 +1517,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 40
-  dano: 8
-  timeBetweenAttacks: 3
+  dano: 5
+  timeBetweenAttacks: 2
   distancia: 2.5
---- !u!65 &2861076239946393597
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8172442304542317006}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.58456886, y: 1.2762359, z: 0.38629493}
-  m_Center: {x: 0.009441635, y: 0.61019844, z: -0.014162421}
 --- !u!1 &8569649574974592577
 GameObject:
   m_ObjectHideFlags: 0
