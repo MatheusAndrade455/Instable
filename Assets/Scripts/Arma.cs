@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Arma : MonoBehaviour
 {
@@ -8,23 +7,7 @@ public class Arma : MonoBehaviour
     public Camera fpsCam;
     public ParticleSystem tiro;
 
-    public static float vida = 100.0f;
-
-    public static Image healthBarImage;
-
-    public static void TakeDamage(float damage){
-        vida -= damage;
-        Debug.Log(vida);
-        UpdateHealthBar();
-    }
-
-    public static void UpdateHealthBar() {
-        healthBarImage.fillAmount = Mathf.Clamp(vida / 100.0f, 0, 1f);
-    }
-
-    void Start(){
-        healthBarImage = GameObject.Find("HealthBarInner").GetComponent<Image>();
-    }
+    //public static float vida = 100.0f;
 
     void Update()
     {

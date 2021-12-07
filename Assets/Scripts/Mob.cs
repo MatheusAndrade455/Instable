@@ -52,7 +52,8 @@ public class Mob : MonoBehaviour
     {
         if (!alreadyAttacked)
         {
-            Arma.TakeDamage(dano);
+            ProgressBar.barValue -= dano;
+            Debug.Log(ProgressBar.barValue);
             alreadyAttacked = true;
             Invoke("ResetAttack", timeBetweenAttacks);
         }

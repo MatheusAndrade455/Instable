@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
+[ExecuteInEditMode]
+
 public class ProgressBar : MonoBehaviour
 {
 
@@ -89,27 +91,26 @@ public class ProgressBar : MonoBehaviour
 
     private void Update()
     {
-                UpdateValue(Arma.vida);
-        // if (!Application.isPlaying)
-        // {           
-        //     UpdateValue(50);
-        //     txtTitle.color = TitleColor;
-        //     txtTitle.font = TitleFont;
-        //     txtTitle.fontSize = TitleFontSize;
+        if (!Application.isPlaying)
+        {           
+            UpdateValue(50);
+            txtTitle.color = TitleColor;
+            txtTitle.font = TitleFont;
+            txtTitle.fontSize = TitleFontSize;
 
-        //     bar.color = BarColor;
-        //     barBackground.color = BarBackGroundColor;
+            bar.color = BarColor;
+            barBackground.color = BarBackGroundColor;
 
-        //     barBackground.sprite = BarBackGroundSprite;           
-        // }
-        // else
-        // {
+            barBackground.sprite = BarBackGroundSprite;           
+        }
+        else
+        {
             if (Alert >= barValue && Time.time > nextPlay)
             {
                 nextPlay = Time.time + RepeatRate;
                 audiosource.PlayOneShot(sound);
             }
-        // }
+        }
     }
 
 }
