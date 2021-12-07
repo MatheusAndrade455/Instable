@@ -7,7 +7,7 @@ public class Arma : MonoBehaviour
     public Camera fpsCam;
     public ParticleSystem tiro;
 
-    //public static float vida = 100.0f;
+    public static float vida = 100.0f;
 
     void Update()
     {
